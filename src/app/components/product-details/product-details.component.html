@@ -1,0 +1,16 @@
+<div class="product-details">
+  <div>PRODUCTS DETAILS</div>
+    <img [src]="product.image" alt="{{ product.name }}" />
+    <h2>{{ product.name }}</h2>
+    <p>₹{{ product.price }}</p>
+    <div> <span>Quantity </span>
+      <button class="lessQuantity" (click)="decreaseQuantity()">-</button>
+      <span>{{ quantity }}</span>
+      <button class="moreQuantity" (click)="increaseQuantity()">+</button>
+    </div>
+    <br>
+    <button (click)="addToCart()">Add to Cart</button>
+    <div>Product Details:</div>
+    <div>This is our best-selling product, available at a very affordable price.</div>
+  </div>
+  

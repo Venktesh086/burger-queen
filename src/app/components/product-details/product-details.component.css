@@ -1,0 +1,21 @@
+.product-details {
+    text-align: center;
+    margin: 50px;
+  }
+  .product-details img{
+   height: 140px;
+   width: 200px;
+  }
+  .product-details button {
+    background: #f8c94d;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .lessQuantity {
+    margin-right: 10px;
+  }
+ .moreQuantity {
+    margin-left: 10px;
+ }
